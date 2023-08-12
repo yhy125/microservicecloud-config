@@ -1,0 +1,16 @@
+# 注意编码格式要为UTF-8 ！！！！！！！！！！！！！
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-yhy-dev
+    
+---
+spring:
+  profiles: test #测试环境
+  application:
+    name: microservicecloud-config-yhy-test
